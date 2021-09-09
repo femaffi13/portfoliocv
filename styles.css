@@ -156,29 +156,6 @@ header{
     }
 }
 
-                /********** Servicios **********/
-.servicios{
-    margin-bottom: 5rem; }
-
-.container-servicios{
-    padding: 0 1.5rem; }
-
-.servicio{
-    padding: 1.5rem;
-    margin: 1.25rem .75rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center; }
-
-.servicio h3{
-    padding: 0.7rem; } 
-
-@media screen and (min-width: 768px){
-    .container-servicios{
-        display: flex;
-    }
-}
 
                 /********** Proyectos **********/
 .proyectos{
