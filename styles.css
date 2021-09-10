@@ -157,6 +157,7 @@ header{
 }
 
 
+
                 /********** Proyectos **********/
 .proyectos{
     width: 100%;
@@ -169,19 +170,12 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.75rem;
     cursor: pointer; }
     
 .proyecto img {
     width: 100%;
     height: auto; }
-
-.proyecto-info{
-    font-size: .9rem; }
-
-.proyecto-info h3{
-    text-align: center;
-    margin: .5rem auto; }
 
 .container-proyectos-otros{
     display: flex;
@@ -220,13 +214,13 @@ progress::-moz-progress-bar{
 
 @media screen and (min-width: 576px){
     .container-proyectos{
-        grid-template-columns: repeat(2, 40%);
+        grid-template-columns: repeat(2, 45%);
     }
 }
 
 @media screen and (min-width: 992px){
     .container-proyectos{
-        grid-template-columns: repeat(4, 22%);
+        grid-template-columns: repeat(2, 45%);
     }
     .container-proyectos-otros{
         flex-direction: row;
