@@ -77,6 +77,10 @@ img{
     padding: 0.7rem;
     font-size: 14px; }
 
+.data-scientist{
+    display: none;
+}
+
 @media screen and (min-width: 576px){
     .hero-image-content-bottom p{
         padding: 3rem;
@@ -87,15 +91,15 @@ img{
     .hero-image-content-top{
         display: flex;
         flex-direction: row;
-        padding: 4rem; }
+        padding: 2rem; }
 
     .hero-image-content-bottom p{
         padding: 3rem;
         font-size: 18px; }
 
-    .hero-image-content-bottom svg{
+    .data-scientist{
         display: block;
-        width: 400px; }
+        width: 225px; }
 }
 
 @media screen and (min-width: 1024px){
@@ -176,7 +180,7 @@ header{
     width: 100%;
     height: auto; }
 
-.container-proyectos-otros{
+/* .container-proyectos-otros{
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
@@ -205,17 +209,18 @@ progress::-webkit-progress-value{
     background-color: var(--first-color); }
     
 progress::-moz-progress-bar{
-    background-color: var(--gray-dark-color); }  
+    background-color: var(--gray-dark-color); }   */
 
 .container-proyectos{
     display: grid;
-    grid-template-columns: repeat(1, 75%);
+    grid-template-columns: repeat(2, 47%);
     justify-content: space-around; }
 
 .container-proyectos2{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 3.5rem;
 }
 
 .link-card{
@@ -224,15 +229,33 @@ progress::-moz-progress-bar{
     padding: 1.5em;
 }
 
+.especial-1{
+    width: 100%;
+    margin-bottom: 4rem;
+    height: auto;
+    border-radius: 2.5rem;
+    /*background-color: rgb(204, 204, 204, .8);*/
+    background-color: rgb(219, 211, 248);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.especial-1 img{
+    width: 110px;
+}
+
+
 @media screen and (min-width: 576px){
     .container-proyectos{
-        grid-template-columns: repeat(2, 45%);
+        grid-template-columns: repeat(2, 40%);
     }
 }
 
 @media screen and (min-width: 992px){
     .container-proyectos{
-        grid-template-columns: repeat(2, 45%);
+        grid-template-columns: repeat(4, 23%);
     }
     .container-proyectos-otros{
         flex-direction: row;
@@ -244,7 +267,14 @@ progress::-moz-progress-bar{
     .progress{
         width: 40%;
     }
+    .especial-1{
+        grid-template-columns: repeat(9, 1fr);
+    }
+    .especial-1 img{
+        width: 105px;
+    }
 }
+
 
                 /********** Cursos **********/
 
