@@ -316,7 +316,7 @@ progress::-moz-progress-bar{
 
 .curso{
     border-radius: .5rem;
-    padding: .5rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
